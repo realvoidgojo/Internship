@@ -16,7 +16,7 @@ python caesar_cipher.py
 
 [Source Code](./PRODIGY_CS_01%20Caesar%20Cipher/caesar_cipher.py)
 
-<div style="text-align: center;">
+<div style="text-align:center;">
 <img  src="./img/caesar_cipher.png" alt="Example Image" width="500"/>
 </div>
 
