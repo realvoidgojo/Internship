@@ -1,7 +1,6 @@
 import string
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox, font
-import os
 
 # Caesar Cipher Function
 def caesar_cipher(text, shift, alphabets, mode):
@@ -91,16 +90,16 @@ root.resizable(False, False)
 root.configure(bg='#424952')
 style = ttk.Style()
     
-# Customize in combobox 
+# Customization in combobox 
 style.map('TCombobox', 
            selectbackground=[('readonly', 'white')],
            selectforeground=[('readonly', 'black')],
            background=[('readonly', 'white')],
            foreground=[('readonly', 'black')])
 
-# Customize in Buttons
+# Customization in Buttons
 button_font_browser = font.Font(size=7)
-button_font_transform = font.Font(size=10, weight="bold")
+button_font_transform = font.Font(size=10,font=("Helvetica",12,'bold'), weight="bold")
 
 # File Input
 file_frame = tk.Frame(root, bg='#424952')
@@ -152,13 +151,13 @@ lowercase_var = tk.BooleanVar(value=True)
 uppercase_var = tk.BooleanVar()
 digits_var = tk.BooleanVar()
 
-lowercase_check = tk.Checkbutton(root, text="Lowercase (abcdefghijklmnopqrstuvwxyz)", variable=lowercase_var, bg='#424952', fg='white', selectcolor='#424952')
-uppercase_check = tk.Checkbutton(root, text="Uppercase (ABCDEFGHIJKLMNOPQRSTUVWXYZ)", variable=uppercase_var, bg='#424952', fg='white', selectcolor='#424952')
-digits_check = tk.Checkbutton(root, text="Digits (0123456789)", variable=digits_var, bg='#424952', fg='white', selectcolor='#424952')
+lowercase_check = tk.Checkbutton(root, text="Lowercase (abcdefghijklmnopqrstuvwxyz)", variable=lowercase_var, bg='#424952',font=("Helvetica",9), fg='white', selectcolor='#424952')
+uppercase_check = tk.Checkbutton(root, text="Uppercase (ABCDEFGHIJKLMNOPQRSTUVWXYZ)", variable=uppercase_var, bg='#424952',font=("Helvetica",9), fg='white', selectcolor='#424952')
+digits_check = tk.Checkbutton(root, text="Digits (0123456789)", variable=digits_var, bg='#424952', fg='white',font=("Helvetica",9), selectcolor='#424952')
 
-lowercase_check.pack(padx=(0, 40)) 
-uppercase_check.pack(padx=(0, 5)) 
-digits_check.pack(padx=(0, 160))  
+lowercase_check.pack(padx=(0, 50)) 
+uppercase_check.pack(padx=(0, 0)) 
+digits_check.pack(padx=(0, 165))  
 
 # Output 
 output_label = tk.Label(root, text="Output", bg='#424952', fg='white')
