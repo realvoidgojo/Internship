@@ -84,7 +84,7 @@ def save_output(output_text, output_file_path):
 #  GUI window
 root = tk.Tk()
 root.title("Caesar Cipher")
-root.geometry("600x720")
+root.geometry("600x740")
 root.resizable(False, False)
 
 root.configure(bg='#424952')
@@ -124,7 +124,7 @@ input_frame.pack(fill=tk.BOTH, expand=True, padx=20, pady=15)
 input_scrollbar = tk.Scrollbar(input_frame)
 input_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 
-input_text = tk.Text(input_frame, height=10, wrap=tk.WORD, yscrollcommand=input_scrollbar.set)
+input_text = tk.Text(input_frame,font=("Arial"), height=10, wrap=tk.WORD, yscrollcommand=input_scrollbar.set)
 input_text.pack(fill=tk.BOTH, expand=True)
 
 input_scrollbar.config(command=input_text.yview)
@@ -169,7 +169,7 @@ output_frame.pack(fill=tk.BOTH, expand=True, padx=20, pady=15)
 output_scrollbar = tk.Scrollbar(output_frame)
 output_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 
-output_text = tk.Text(output_frame, height=10, wrap=tk.WORD, yscrollcommand=output_scrollbar.set)
+output_text = tk.Text(output_frame, height=10,font=("Arial"), wrap=tk.WORD, yscrollcommand=output_scrollbar.set)
 output_text.pack(fill=tk.BOTH, expand=True)
 
 output_scrollbar.config(command=output_text.yview)
