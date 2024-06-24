@@ -98,14 +98,14 @@ style.map('TCombobox',
            foreground=[('readonly', 'black')])
 
 # Customization in Buttons
-button_font_browser = font.Font(size=7)
-button_font_transform = font.Font(size=10,font=("Helvetica",12,'bold'), weight="bold")
+button_font_browser = font.Font(size=7,font=("Arial",9))
+button_font_transform = font.Font(size=10,font=("Arial",12,'bold'), weight="bold")
 
 # File Input
 file_frame = tk.Frame(root, bg='#424952')
 file_frame.pack(pady=10)
 
-file_label = tk.Label(file_frame, text="File", bg='#424952', fg='white')
+file_label = tk.Label(file_frame, text="File", bg='#424952', fg='white',font=("Arial"))
 file_label.grid(row=0, column=0, padx=5)
 
 file_entry = tk.Entry(file_frame, width=40)
@@ -115,7 +115,7 @@ file_button = tk.Button(file_frame, text="Browse", command=select_file, bd=0, re
 file_button.grid(row=0, column=2, padx=5)
 
 # Input Box 
-input_label = tk.Label(root, text="Input", bg='#424952', fg='white')
+input_label = tk.Label(root, text="Input", bg='#424952', fg='white',font=("Arial"))
 input_label.pack(pady=(10, 0), padx=(0, 500))
 
 input_frame = tk.Frame(root)
@@ -133,14 +133,14 @@ input_scrollbar.config(command=input_text.yview)
 mode_shift_frame = tk.Frame(root, bg='#424952')
 mode_shift_frame.pack(pady=5)
 
-mode_label = tk.Label(mode_shift_frame, text="Mode", bg='#424952', fg='white')
+mode_label = tk.Label(mode_shift_frame, text="Mode", bg='#424952', fg='white',font=("Arial"))
 mode_label.grid(row=0, column=0, padx=5)
 
 mode_var = tk.StringVar(value="Encryption")
 mode_menu = ttk.Combobox(mode_shift_frame, textvariable=mode_var, values=["Encryption", "Decryption"], state='readonly')
 mode_menu.grid(row=0, column=1, padx=5)
 
-shift_label = tk.Label(mode_shift_frame, text="Shift", bg='#424952', fg='white')
+shift_label = tk.Label(mode_shift_frame, text="Shift", bg='#424952', fg='white',font=("Arial"))
 shift_label.grid(row=0, column=2, padx=5)
 shift_entry = tk.Entry(mode_shift_frame, width=5)
 shift_entry.insert(0, "13")
@@ -151,16 +151,16 @@ lowercase_var = tk.BooleanVar(value=True)
 uppercase_var = tk.BooleanVar()
 digits_var = tk.BooleanVar()
 
-lowercase_check = tk.Checkbutton(root, text="Lowercase (abcdefghijklmnopqrstuvwxyz)", variable=lowercase_var, bg='#424952',font=("Helvetica",9), fg='white', selectcolor='#424952')
-uppercase_check = tk.Checkbutton(root, text="Uppercase (ABCDEFGHIJKLMNOPQRSTUVWXYZ)", variable=uppercase_var, bg='#424952',font=("Helvetica",9), fg='white', selectcolor='#424952')
-digits_check = tk.Checkbutton(root, text="Digits (0123456789)", variable=digits_var, bg='#424952', fg='white',font=("Helvetica",9), selectcolor='#424952')
+lowercase_check = tk.Checkbutton(root, text="Lowercase (abcdefghijklmnopqrstuvwxyz)", variable=lowercase_var, bg='#424952',font=("Arial",9), fg='white', selectcolor='#424952')
+uppercase_check = tk.Checkbutton(root, text="Uppercase (ABCDEFGHIJKLMNOPQRSTUVWXYZ)", variable=uppercase_var, bg='#424952',font=("Arial",9), fg='white', selectcolor='#424952')
+digits_check = tk.Checkbutton(root, text="Digits (0123456789)", variable=digits_var, bg='#424952', fg='white',font=("Arial",9), selectcolor='#424952')
 
 lowercase_check.pack(padx=(0, 50)) 
 uppercase_check.pack(padx=(0, 0)) 
 digits_check.pack(padx=(0, 165))  
 
 # Output 
-output_label = tk.Label(root, text="Output", bg='#424952', fg='white')
+output_label = tk.Label(root, text="Output", bg='#424952', fg='white',font=("Arial"))
 output_label.pack(pady=(10, 0), padx=(0, 500))
 
 output_frame = tk.Frame(root)
@@ -175,7 +175,7 @@ output_text.pack(fill=tk.BOTH, expand=True)
 output_scrollbar.config(command=output_text.yview)
 
 # Transform button
-transform_button = tk.Button(root, text="Transform !!!", command=transform_text, bg='lime green', width=14, height=2, bd=0, relief=tk.FLAT, font=button_font_transform)
+transform_button = tk.Button(root, text="Transform !!!", command=transform_text,fg='#e3eeda', bg='#70ae45', width=14, height=2, bd=0, relief=tk.FLAT, font=button_font_transform)
 transform_button.pack(pady=15, padx=20)
 
 root.mainloop()
