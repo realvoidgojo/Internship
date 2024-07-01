@@ -1,0 +1,2 @@
+hello world this is test writing/ [Key.backspace] .  
+  [Key.shift]  [Key.shift]  [Key.shift]  [Key.enter]  [Key.backspace]  [Key.backspace]  [Key.backspace] 
