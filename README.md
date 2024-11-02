@@ -1,6 +1,6 @@
-# Internship
+# CyTools
 
-## TASK 1 | PRODIGY_CS_01 (Caesar Cipher)
+## Caesar Cipher
 
 First **Install** Dependencies
 
@@ -9,11 +9,11 @@ pip install tk
 ```
 
 ```
-cd /PRODIGY_CS_01 Caesar Cipher
+cd /Caesar Cipher
 python caesar_cipher.py
 ```
 
-[Source Code](./PRODIGY_CS_01%20Caesar%20Cipher/caesar_cipher.py)
+[Source Code](./Caesar%20Cipher/caesar_cipher.py)
 
 <div style="text-align:center;">
 <img  src="./img/caesar_cipher.png" alt="Example Image" width="500"/>
@@ -21,7 +21,7 @@ python caesar_cipher.py
 
 ---
 
-## TASK 2 | PRODIGY_CS_02 (Pixel Manipulation)
+## Pixel Manipulation
 
 First **Install** Dependencies
 
@@ -37,7 +37,7 @@ cd /PRODIGY_CS_01 Pixel Manipulation
 python img_crypt_tool.py
 ```
 
-[Source Code](./PRODIGY_CS_02%20Pixel%20Manipulation/img_crypt_tool.py)
+[Source Code](./Pixel%20Manipulation/img_crypt_tool.py)
 
 <div style="text-align:center;">
 <img  src="./img/img_crypt_tool_enc.png" alt="Example Image" width="500"/>
@@ -46,7 +46,7 @@ python img_crypt_tool.py
 
 ---
 
-## TASK 3 | PRODIGY_CS_03 (Password Complexity)
+## Password Complexity
 
 First **Install** Dependencies
 
@@ -55,11 +55,11 @@ pip install tk
 ```
 
 ```
-cd /PRODIGY_CS_03 Password Complexity
+cd /Password Complexity
 python img_crypt_tool.py
 ```
 
-[Source Code](./PRODIGY_CS_03%20Password%20Complexity/password_strength_meter.py)
+[Source Code](./Password%20Complexity/password_strength_meter.py)
 
 <div style="text-align:center;">
 <img  src="./img/password_strength_meter.jpeg" alt="Example Image" width="800"/>
@@ -67,14 +67,14 @@ python img_crypt_tool.py
 
 ---
 
-## TASK 4 | PRODIGY_CS_04 (Keylogger)
+## Keylogger
 
 ```
 cd /PRODIGY_CS_04 Keylogger
 python img_crypt_tool.py
 ```
 
-[Source Code](./PRODIGY_CS_04%20Keylogger/keylogger.py)
+[Source Code](./Keylogger/keylogger.py)
 
 <div style="text-align:center;">
 <img  src="./img//keylogger.jpeg" alt="Example Image" width="1000"/>
@@ -82,7 +82,7 @@ python img_crypt_tool.py
 
 ---
 
-## TASK 5 | PRODIGY_CS_05 (Network Packet Analyzer)
+## Network Packet Analyzer
 
 First **Install** Dependencies
 
@@ -104,7 +104,7 @@ cd /PRODIGY_CS_05 Network Packet Analyzer
 python img_crypt_tool.py
 ```
 
-[Source Code](./PRODIGY_CS_05%20Network%20Packet%20Analyzer/packet_analyzer.py)
+[Source Code](./Network%20Packet%20Analyzer/packet_analyzer.py)
 
 <div style="text-align:center;">
 <img  src="./img/packet_analyzer.jpeg" alt="Example Image" width="900"/>
