@@ -33,7 +33,7 @@ pip install pillow
 ```
 
 ```
-cd /PRODIGY_CS_01 Pixel Manipulation
+cd /Pixel Manipulation
 python img_crypt_tool.py
 ```
 
@@ -70,7 +70,7 @@ python img_crypt_tool.py
 ## Keylogger
 
 ```
-cd /PRODIGY_CS_04 Keylogger
+cd /Keylogger
 python img_crypt_tool.py
 ```
 
@@ -100,11 +100,11 @@ sudo apt-get install libpcap-dev
 ```
 
 ```
-cd /PRODIGY_CS_05 Network Packet Analyzer
+cd /Network Packet Analyzer
 python img_crypt_tool.py
 ```
 
-[Source Code](./Network%20Packet%20Analyzer/packet_analyzer.py)
+[Source Code](./Packet%20Analyzer/packet_analyzer.py)
 
 <div style="text-align:center;">
 <img  src="./img/packet_analyzer.jpeg" alt="Example Image" width="900"/>
